@@ -11,7 +11,8 @@ namespace WebApi.Data
         }
        
         public DbSet<Value> ValueInfo { get; set; }
-        
-         }
+        public DbSet<User> Users { get; set; }
+
+    }
 
 }
